@@ -1,0 +1,169 @@
+header{
+    background-color: rgb(228, 228, 228);
+    color: rgba(18, 34, 58, 0.87);
+    font-family: "Cinzel Decorative", serif;
+    font-size: 23px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 110px;
+    z-index: 1;
+    padding: 10px;
+}
+
+header h1 img{
+    height: 70px;
+    width: 70px;
+}
+
+section img{
+    min-width: 100%;
+    height: 900px;
+}
+
+nav{
+    padding: 0px;
+    font-family: "Comic Sans MS";
+    background-color: rgb(228, 228, 228);
+    position: sticky;
+    box-sizing: border-box;
+    top: 125px;
+    z-index: 2;
+}
+
+nav ul{
+    max-width: 1700px;
+    margin: 0px auto ;
+    white-space: nowrap;
+}
+
+nav li{
+    width: 20%;
+    font-size: 25px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 0;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: inherit;
+    color: maroon;
+    padding-left: 10px;
+}
+
+.buttonFloat a img{
+    max-width: 40%;
+    max-height: 40%;
+}
+
+body{
+    background: rgba(73, 73, 72, 0.397);
+    font-size: 22px;
+    margin: 0;
+}
+
+main{
+    width: 77%;
+    max-width: 100%;
+    margin: 50px auto;
+    line-height: 180%;
+    color: rgb(3, 34, 63);
+}
+
+h3{
+    color: rgb(206, 59, 6);
+    font-size: 35px;
+}
+
+h5{
+    font-size: 29px;
+    color: rgba(206, 59, 6, 0.712);
+}
+
+a{
+    color: rgb(114, 15, 15);
+}
+
+div li{
+    display: inline-block;
+    text-align: center;
+    margin: 10% 10%;
+}
+
+.ContactImgs li img{
+    max-width: 100%;
+    transition: transform 1.2s;
+}
+
+.ContactImgs li img:hover{
+    transform: rotateX(360deg);
+    filter: grayscale(48%);
+}
+
+.Gallery{
+    width: 100%;
+    margin: 50px auto;
+    color: rgb(3, 34, 63);
+}
+
+.imagesHori{
+    margin: 2%;
+}
+
+.imagesHori li{
+    display: inline-block;
+    width: 20%;
+    margin: 50px 6%;    
+}
+
+.imagesHori li img{
+    max-width: 100%;
+    transition: transform 0.3s;
+}
+
+.imagesHori li img:hover{
+    transform: scale(1.3);
+}
+
+.imagesVert{
+    margin: 2%;
+}
+
+.imagesVert li{
+    display: inline-block;
+    height: 20%;
+    width: 40%;
+    margin: 50px 3%;    
+}
+
+.imagesVert li img{
+    max-width: 100%;
+    transition: transform 0.3s;
+}
+
+.imagesVert li img:hover{
+    transform: scale(1.3);
+}
+
+.imgsInter{
+    margin: 2%;
+    text-align: center;
+}
+
+
+.imgsInter li{
+    display: inline-block;
+    height: 20%;
+    margin: 50px 7%;
+}
+
+.imgsInter li img{
+    max-width: 370px;
+    transition: transform 0.5s;
+}
+
+.imgsInter li img:hover{
+    transform: scale(1.3);
+    filter: grayscale(75%);
+}
